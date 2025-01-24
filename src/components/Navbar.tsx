@@ -18,7 +18,7 @@ export function Navbar() {
   };
 
   return (
-    <nav className="fixed bottom-0 left-0 w-full bg-white border-t border-gray-200 md:top-0 md:border-t-0 md:border-b">
+    <nav className="bottom-0 left-0 w-full bg-white border-t border-gray-200 md:top-0 md:border-t-0 md:border-b">
       <div className="max-w-screen-xl mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="hidden md:flex items-center space-x-2">
